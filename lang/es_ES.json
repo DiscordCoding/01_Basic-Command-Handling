@@ -1,0 +1,7 @@
+{
+    "event_error": "El evento que dio error fue: ",
+    "utility_error": "La utilidad que dio error fue: ",
+    "reload": "Está bien, recargué todos los comandos.",
+    "help": "hola jaja equisde",
+    "cmdrunerror": "Hubo un error al ejecutar este comando."
+}

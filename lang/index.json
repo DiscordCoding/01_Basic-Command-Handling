@@ -1,0 +1,11 @@
+[{
+    "nombre": "es-es",
+    "nombreCompleto": "Español",
+    "archivo": "es_ES.json",
+    "default": true
+}, {
+    "nombre": "en-US",
+    "nombreCompleto": "English",
+    "archivo": "en_US.json",
+    "default": false
+}]

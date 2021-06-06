@@ -1,0 +1,7 @@
+{
+    "event_error": "The event error came from: ",
+    "utility_error": "The utility error came from: ",
+    "reload": "It`s fine, all commands reloaded.",
+    "help": "hey  xd equisde",
+    "cmdrunerror": "There was an error trying to execute that command."
+}
