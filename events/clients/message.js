@@ -84,3 +84,21 @@ module.exports = class Message extends Event {
         }
     }
 };
+
+const tempChannel = require("discord.js-temporary-channel");
+
+//just call API
+tempChannel.autoCreateChannel(client, {
+    userLimit: 12,
+    reason: "powered by ds112",
+    nameStartsWith: "3AT ",
+    nameStartsWithTemp: "* ",
+});
+
+//Private channel method (Only creator has access)
+tempChannel.autoCreateChannelPrivate(client, {
+    userLimit: 10,
+    reason: "powered by ds112",
+    nameStartsWith: "[p] 3AT",
+    nameStartsWithTemp: "[p] *"
+});
